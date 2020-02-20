@@ -1,0 +1,1 @@
+/opt/local/bin/gfortran   -O3 -DNDEBUG -O3 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 CMakeFiles/demo.dir/demo.f90.o  -o demo  ../src/libogpf.a 

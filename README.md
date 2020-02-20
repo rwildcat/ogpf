@@ -1,6 +1,61 @@
 # ogpf
 Object Based Interface to GnuPlot from Fortran (ogpf)
 
+## Installation
+
+```sh
+# get the software
+$ git clone https://github.com/rwildcat/ogpf.git
+
+# cd to build dir
+$ cd ogpf/build
+
+# make Makefile
+$ cmake ..
+
+# make the software
+$ make
+
+# if desired, run the demo
+$ ./demo/demo
+
+# install the library (/usr/local by default)
+$ sudo make install
+
+# or
+$ sudo make install [DESTDIR=/desired/path]
+```
+
+## Usage
+
+In general:
+
+```sh
+$ gfortran -I </path/to/include> -L </path/to/libs> [-o <progexe>] <progsrc.f90> -l ogpf
+```
+where:
+
+* `-I`: Path to included (`*.mod`) files
+* `-L`: Path to library files
+* `-o`: Name of the generated (output) program
+* `progsrc.f90`:  Name of the Fortran source file
+* `-l`: Library to link: the `ogpf` plotting library in this case
+
+For example:
+
+```sh
+$ gfortran -I/usr/local/include -L/usr/local/lib [-o <progexe>] <progsrc.f90> -logpf
+```
+
+**Example:** 
+
+* Compilation of the `demo.f90` program:
+
+    ```sh
+    $ gfortran -I /usr/local/include -L /usr/local/lib -o demo demo.f90 -l ogpf
+    ```
+
+
 ## 2D Plots
 
 Simple plot                    | Animation

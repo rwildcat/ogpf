@@ -1,0 +1,585 @@
+The system is: Darwin - 17.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/3.16.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/3.16.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_ecfa3/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_ecfa3.dir/build.make CMakeFiles/cmTC_ecfa3.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecfa3.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_ecfa3.dir/testCCompiler.c.o   -c /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ecfa3
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecfa3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ecfa3.dir/testCCompiler.c.o  -o cmTC_ecfa3 
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_198d6/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_198d6.dir/build.make CMakeFiles/cmTC_198d6.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl,-v -o CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_198d6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_198d6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o  -o cmTC_198d6 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_198d6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/local/bin/gmake cmTC_198d6/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_198d6.dir/build.make CMakeFiles/cmTC_198d6.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl -v -o CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o -x c /opt/local/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_198d6]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_198d6.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o  -o cmTC_198d6 ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_198d6 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_198d6] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_198d6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_5a478/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_5a478.dir/build.make CMakeFiles/cmTC_5a478.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5a478.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_5a478.dir/testCXXCompiler.cxx.o -c /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5a478
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a478.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5a478.dir/testCXXCompiler.cxx.o  -o cmTC_5a478 
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_708ed/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_708ed.dir/build.make CMakeFiles/cmTC_708ed.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl,-v -o CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_708ed
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_708ed.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_708ed 
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_708ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-409.12
+BUILD 17:47:51 Sep 25 2018
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include;/Library/Developer/CommandLineTools/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/local/bin/gmake cmTC_708ed/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_708ed.dir/build.make CMakeFiles/cmTC_708ed.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl -v -o CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.13.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 409.12 -v -coverage-notes-file /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -stdlib=libc++ -fdeprecated-macro -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fobjc-runtime=macosx-10.13.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/local/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.0 (clang-1000.10.44.4) default target x86_64-apple-darwin17.7.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_708ed]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_708ed.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_708ed ]
+  ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.4)]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_708ed -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_708ed] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_708ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /opt/local/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /opt/local/bin/gfortran -v CMakeFortranCompilerId.F --sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/lto-wrapper
+Target: x86_64-apple-darwin17
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc9/gcc9/work/gcc-9.2.0/configure --prefix=/opt/local --build=x86_64-apple-darwin17 --enable-languages=c,c++,objc,obj-c++,lto,fortran --libdir=/opt/local/lib/gcc9 --includedir=/opt/local/include/gcc9 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-9 --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-9 --with-gxx-include-dir=/opt/local/include/gcc9/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc9 9.2.0_2'
+Thread model: posix
+gcc version 9.2.0 (MacPorts gcc9 9.2.0_2) 
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccVlX9WE.f90 -quiet -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.13 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude -o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccFXSB9O.s
+GNU Fortran (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)
+	compiled by GNU C version 9.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/opt/local/include"
+ignoring nonexistent directory "/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../../../x86_64-apple-darwin17/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+End of search list.
+GNU Fortran2008 (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)
+	compiled by GNU C version 9.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.13'  '-shared-libgcc' '-mtune=core2'
+ /opt/local/bin/as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.13 -o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccNhRWb3.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccFXSB9O.s
+clang version 9.0.1 
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /opt/local/libexec/llvm-9.0/bin
+ "/opt/local/libexec/llvm-9.0/bin/clang" -cc1as -triple x86_64-apple-macosx10.13.0 -filetype obj -main-file-name ccFXSB9O.s -target-cpu penryn -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/3.16.4/CompilerIdFortran -dwarf-debug-producer "clang version 9.0.1 " -dwarf-version=4 -mrelocation-model pic -o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccNhRWb3.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccFXSB9O.s
+Reading specs from /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.13'  '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/
+LIBRARY_PATH=/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-mmacosx-version-min=10.13'  '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/collect2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.13 -weak_reference_mismatches non-weak -o a.out -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../.. /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccNhRWb3.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 9.2.0
+/opt/local/bin/ld -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/ -dynamic -arch x86_64 -macosx_version_min 10.13 -weak_reference_mismatches non-weak -o a.out -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../.. /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccNhRWb3.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 21:43:24 Feb  5 2020
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64
+Library search paths:
+	/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0
+	/opt/local/lib/gcc9
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/3.16.4/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_8bbd7/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_8bbd7.dir/build.make CMakeFiles/cmTC_8bbd7.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_8bbd7.dir/testFortranCompiler.f.o
+/opt/local/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -c /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_8bbd7.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_8bbd7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bbd7.dir/link.txt --verbose=1
+/opt/local/bin/gfortran      -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_8bbd7.dir/testFortranCompiler.f.o  -o cmTC_8bbd7 
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_28e73/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_28e73.dir/build.make CMakeFiles/cmTC_28e73.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o
+/opt/local/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl,-v -c /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gfortran
+Target: x86_64-apple-darwin17
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc9/gcc9/work/gcc-9.2.0/configure --prefix=/opt/local --build=x86_64-apple-darwin17 --enable-languages=c,c++,objc,obj-c++,lto,fortran --libdir=/opt/local/lib/gcc9 --includedir=/opt/local/include/gcc9 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-9 --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-9 --with-gxx-include-dir=/opt/local/include/gcc9/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc9 9.2.0_2'
+Thread model: posix
+gcc version 9.2.0 (MacPorts gcc9 9.2.0_2) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/f951 /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccppRTVa.f90 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -fPIC -quiet -dumpbase CMakeFortranCompilerABI.F -mmacosx-version-min=10.13 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude -o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s
+GNU Fortran (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)
+	compiled by GNU C version 9.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/opt/local/include"
+ignoring nonexistent directory "/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../../../x86_64-apple-darwin17/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include
+ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+End of search list.
+GNU Fortran2008 (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)
+	compiled by GNU C version 9.2.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13'  '-mtune=core2'
+ /opt/local/bin/as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.13 -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s
+clang version 9.0.1 
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /opt/local/libexec/llvm-9.0/bin
+ "/opt/local/libexec/llvm-9.0/bin/clang" -cc1as -triple x86_64-apple-macosx10.13.0 -filetype obj -main-file-name ccPgEVWO.s -target-cpu penryn -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "clang version 9.0.1 " -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/
+LIBRARY_PATH=/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13'  '-mtune=core2'
+Linking Fortran executable cmTC_28e73
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28e73.dir/link.txt --verbose=1
+/opt/local/bin/gfortran   -v -Wl,-v   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o  -o cmTC_28e73 
+Driving: /opt/local/bin/gfortran -v -Wl,-v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -o cmTC_28e73 -mmacosx-version-min=10.13 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/opt/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/lto-wrapper
+Target: x86_64-apple-darwin17
+Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc9/gcc9/work/gcc-9.2.0/configure --prefix=/opt/local --build=x86_64-apple-darwin17 --enable-languages=c,c++,objc,obj-c++,lto,fortran --libdir=/opt/local/lib/gcc9 --includedir=/opt/local/include/gcc9 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-9 --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-9 --with-gxx-include-dir=/opt/local/include/gcc9/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc9 9.2.0_2'
+Thread model: posix
+gcc version 9.2.0 (MacPorts gcc9 9.2.0_2) 
+Reading specs from /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-o' 'cmTC_28e73' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/
+LIBRARY_PATH=/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-o' 'cmTC_28e73' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2'
+ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_28e73 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../.. -v CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 9.2.0
+/opt/local/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_28e73 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../.. -v CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 21:43:24 Feb  5 2020
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 21:43:24 Feb  5 2020
+configured to support archs: i386 x86_64 x86_64h armv6 armv7 armv7s armv7m armv7k arm64
+Library search paths:
+	/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0
+	/opt/local/lib/gcc9
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude]
+    add: [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include]
+    add: [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  end of search list found
+  collapse include dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude] ==> [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude]
+  collapse include dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include] ==> [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include]
+  collapse include dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed] ==> [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  implicit include dirs: [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude;/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include;/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/opt/local/bin/gmake cmTC_28e73/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_28e73.dir/build.make CMakeFiles/cmTC_28e73.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/opt/local/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -v -Wl -v -c /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/local/bin/gfortran]
+  ignore line: [Target: x86_64-apple-darwin17]
+  ignore line: [Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc9/gcc9/work/gcc-9.2.0/configure --prefix=/opt/local --build=x86_64-apple-darwin17 --enable-languages=c,c++,objc,obj-c++,lto,fortran --libdir=/opt/local/lib/gcc9 --includedir=/opt/local/include/gcc9 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-9 --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-9 --with-gxx-include-dir=/opt/local/include/gcc9/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc9 9.2.0_2']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (MacPorts gcc9 9.2.0_2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-mtune=core2']
+  ignore line: [ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/f951 /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccppRTVa.f90 -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk /opt/local/share/cmake-3.16/Modules/CMakeFortranCompilerABI.F -fPIC -quiet -dumpbase CMakeFortranCompilerABI.F -mmacosx-version-min=10.13 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -version -fintrinsic-modules-path /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude -o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s]
+  ignore line: [GNU Fortran (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/opt/local/include"]
+  ignore line: [ignoring nonexistent directory "/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../../../x86_64-apple-darwin17/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/finclude]
+  ignore line: [ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include]
+  ignore line: [ /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/include-fixed]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (MacPorts gcc9 9.2.0_2) version 9.2.0 (x86_64-apple-darwin17)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13'  '-mtune=core2']
+  ignore line: [ /opt/local/bin/as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.13 -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s]
+  ignore line: [clang version 9.0.1 ]
+  ignore line: [Target: x86_64-apple-darwin17.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/local/libexec/llvm-9.0/bin]
+  ignore line: [ "/opt/local/libexec/llvm-9.0/bin/clang" -cc1as -triple x86_64-apple-macosx10.13.0 -filetype obj -main-file-name ccPgEVWO.s -target-cpu penryn -fdebug-compilation-dir /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp -dwarf-debug-producer "clang version 9.0.1 " -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o /var/folders/jh/2cpjzqbx16j4208hhnxgwngh0000gn/T//ccPgEVWO.s]
+  ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/]
+  ignore line: [LIBRARY_PATH=/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-v' '-c' '-o' 'CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o' '-mmacosx-version-min=10.13'  '-mtune=core2']
+  ignore line: [Linking Fortran executable cmTC_28e73]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28e73.dir/link.txt --verbose=1]
+  ignore line: [/opt/local/bin/gfortran   -v -Wl -v   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o  -o cmTC_28e73 ]
+  ignore line: [Driving: /opt/local/bin/gfortran -v -Wl -v -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -o cmTC_28e73 -mmacosx-version-min=10.13 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin17]
+  ignore line: [Configured with: /opt/local/var/macports/build/_opt_bblocal_var_buildworker_ports_build_ports_lang_gcc9/gcc9/work/gcc-9.2.0/configure --prefix=/opt/local --build=x86_64-apple-darwin17 --enable-languages=c,c++,objc,obj-c++,lto,fortran --libdir=/opt/local/lib/gcc9 --includedir=/opt/local/include/gcc9 --infodir=/opt/local/share/info --mandir=/opt/local/share/man --datarootdir=/opt/local/share/gcc-9 --with-local-prefix=/opt/local --with-system-zlib --disable-nls --program-suffix=-mp-9 --with-gxx-include-dir=/opt/local/include/gcc9/c++/ --with-gmp=/opt/local --with-mpfr=/opt/local --with-mpc=/opt/local --with-isl=/opt/local --enable-stage1-checking --disable-multilib --enable-lto --enable-libstdcxx-time --with-build-config=bootstrap-debug --with-as=/opt/local/bin/as --with-ld=/opt/local/bin/ld --with-ar=/opt/local/bin/ar --with-bugurl=https://trac.macports.org/newticket --disable-tls --with-pkgversion='MacPorts gcc9 9.2.0_2']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (MacPorts gcc9 9.2.0_2) ]
+  ignore line: [Reading specs from /opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-o' 'cmTC_28e73' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2']
+  ignore line: [COMPILER_PATH=/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/libexec/gcc/x86_64-apple-darwin17/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/]
+  ignore line: [LIBRARY_PATH=/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/:/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk' '-o' 'cmTC_28e73' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc' '-mtune=core2']
+  link line: [ /opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_28e73 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0 -L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../.. -v CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/opt/local/libexec/gcc/x86_64-apple-darwin17/9.2.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_28e73] ==> ignore
+    arg [-L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0] ==> dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0]
+    arg [-L/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../..] ==> dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_28e73.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0;/opt/local/lib/gcc9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0] ==> [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0]
+  collapse library dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0/../../..] ==> [/opt/local/lib/gcc9]
+  collapse library dir [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0] ==> [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0]
+  collapse library dir [/opt/local/lib/gcc9] ==> [/opt/local/lib/gcc9]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [gfortran;gcc_ext.10.5;gcc;quadmath;m;gcc_ext.10.5;gcc]
+  implicit dirs: [/opt/local/lib/gcc9/gcc/x86_64-apple-darwin17/9.2.0;/opt/local/lib/gcc9;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake cmTC_0f4d0/fast && /opt/local/bin/gmake -f CMakeFiles/cmTC_0f4d0.dir/build.make CMakeFiles/cmTC_0f4d0.dir/build
+gmake[1]: Entering directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_0f4d0.dir/testFortranCompilerF90.f90.o
+/opt/local/bin/gfortran   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13   -c /Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_0f4d0.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_0f4d0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f4d0.dir/link.txt --verbose=1
+/opt/local/bin/gfortran      -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_0f4d0.dir/testFortranCompilerF90.f90.o  -o cmTC_0f4d0 
+gmake[1]: Leaving directory '/Users/rsolano/Dropbox/Documents/Sandbox-Tests/cmake/ogpf/build/CMakeFiles/CMakeTmp'
+
+
+

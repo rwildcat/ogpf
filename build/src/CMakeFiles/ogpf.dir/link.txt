@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libogpf.a  CMakeFiles/ogpf.dir/ogpf.f90.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libogpf.a
