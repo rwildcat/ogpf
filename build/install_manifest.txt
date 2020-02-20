@@ -1,2 +1,0 @@
-/usr/local/lib/libogpf.a
-/usr/local/include/ogpf.mod
