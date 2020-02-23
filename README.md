@@ -1,7 +1,12 @@
 # ogpf
-Object Based Interface to GnuPlot from Fortran (ogpf)
+Object-Based Interface to [Gnuplot](https://en.wikipedia.org/wiki/Gnuplot) from Fortran (ogpf).
+
+*([Gnuplot](https://en.wikipedia.org/wiki/Gnuplot)  external examples: [Gnuplot gallery](http://gnuplot.sourceforge.net/demo/), [Wikipedia media](https://commons.wikimedia.org/wiki/Category:Gnuplot_diagrams), [Pm3d images](http://ayapin-film.sakura.ne.jp/Gnuplot/pm3d.html) and [GIF animations](http://ayapin-film.sakura.ne.jp/Gnuplot/pm3d_animation.html))*
 
 ## Installation
+
+This branch provides a generic `CMake` installation procedure.
+
 
 ```sh
 # get the software
@@ -19,14 +24,46 @@ $ make
 # if desired, run the demo
 $ ./demo/demo
 
-# install the library (/usr/local by default)
+# install the library (system-wide)
 $ sudo make install
 
 # or
-$ sudo make install [DESTDIR=/desired/path]
+$ [sudo] make install DESTDIR=/desired/path
 ```
 
-## Usage
+## Library usage
+
+Library usage can be summarised as follows:
+
+```fortran
+:
+
+! include lib
+use ogpf
+
+! name (create) a lib instance
+type(opf) :: plt
+
+! data        
+x = [ ... ]
+y = [ ... ]
+        
+! set plot title, xlabel, ylabel
+call plt%title('A simple xy plot')
+call plt%xlabel('My x axis')
+call plt%ylabel('My y axis')
+
+! plot 
+call plt%plot(x, y)
+
+:
+```
+
+See below for full usage examples and options.
+
+
+
+## Compiling usage
 
 In general:
 
@@ -54,7 +91,10 @@ $ gfortran -I/usr/local/include -L/usr/local/lib [-o <progexe>] <progsrc.f90> -l
     ```sh
     $ gfortran -I /usr/local/include -L /usr/local/lib -o demo demo.f90 -l ogpf
     ```
+    
 
+
+# Gallery
 
 ## 2D Plots
 
