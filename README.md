@@ -3,6 +3,10 @@ Object-Based Interface to [Gnuplot](https://en.wikipedia.org/wiki/Gnuplot) from 
 
 *([Gnuplot](https://en.wikipedia.org/wiki/Gnuplot)  external examples: [Gnuplot gallery](http://gnuplot.sourceforge.net/demo/), [Wikipedia media](https://commons.wikimedia.org/wiki/Category:Gnuplot_diagrams), [Pm3d images](http://ayapin-film.sakura.ne.jp/Gnuplot/pm3d.html) and [GIF animations](http://ayapin-film.sakura.ne.jp/Gnuplot/pm3d_animation.html))*
 
+This is a modified fork of the original [ogpf](https://github.com/kookma/ogpf) by [Mohammad Rahmani](https://github.com/kookma).
+
+**Last update:** *Feb/23/2020 (Original Rev. 0.22)*
+
 ## Installation
 
 This branch provides a generic `CMake` installation procedure.
